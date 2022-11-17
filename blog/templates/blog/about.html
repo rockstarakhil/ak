@@ -1,0 +1,173 @@
+
+{% extends "blog/base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+	background: #fafafa;
+	height: 12vh;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+*{margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;}
+.main{
+	
+	height: 250px;
+	width: 650px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 60%;
+	;
+}
+.left{
+	padding: 0px 0px 0px 20px;
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.right{width: 430px; float: left;}
+.box-1{position: relative;}
+.p1{padding: 10px 0px; font-size: 11px;}
+.icons1{
+	font-size: 16px!important;
+	padding-right: 10px!important;
+	vertical-align: sub;
+}
+.skill{
+	margin-left: 20px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.skill li{
+	padding: 13px 0px;
+}
+.name-div{
+	padding: 86px 0px 60px 55px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.name-div h1{margin-bottom: 10px;}
+.box-2{padding: 0px 50px; margin-top:30px;}
+.p2{
+	font-size: 10px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+h2{font-size: 16px; margin-bottom: 15px;}
+</style>
+</head>
+<body>
+
+	<div class="main">
+		<div class="name-div">
+			<h1>B.Sai Akhil Kishore</h1>
+			<p>Big Data Analyst</p>
+		</div>
+
+		<div class="left">
+			<div class="box-1">
+				<p class="heading">Contact</p>
+				<br/>
+				<p class="p1"><i class="material-icons icons1">call</i>+91-8712996189</p>
+				<p class="p1"><i class="material-icons icons1">email</i>b.akhil072@gmail.com</p>
+				<p class="p1"><i class="material-icons icons1">map</i>Kakinada</p>
+			<a href><p class="p1"><i class="material-icons icons1"></i>linkedin</p></a>
+
+			</div>
+
+			<div class="box-1">
+				<br/>
+				<p class="heading">EDUCATION</p>
+				<br/>
+				<p class="p2">2013-2017 B.Tech</p>
+			</div>
+			<br/>
+			<div class="box-1">
+				<p class="heading">SKILLS</p>
+				<ul class="skill">
+					<li>Python</li>
+					<li>Pandas</li>
+					<li>SQL</li>
+					<li>Data Bricks</li>
+					<li>PySpark</li>
+					<li>Azure Data Factory</li>
+					<li>Explotary Data Analysis</li>
+					<li>Azure</li>
+					<li>Power Bi</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="right">
+			
+			<div class="box-2">
+				<h2>PROFILE</h2>
+				<p class="p2">
+					Process oriented data analyst with 2 years of experience. Experienced in interpreting and analyzing data to drive growth for a pharmaceutical company.
+					 Reduced operating costs by 15%. Furnish insights, analytics, and business intelligence needed to guide decisions.
+				</p>
+				
+			</div>
+
+			<div class="box-2">
+				<h2>PROFESSIONAL EXPERIENCE</h2>
+				<h4 style="font-size: 12px; font-weight: 600">Software Testing Engineer</h4>
+				<p class="p2">
+					• worked closely with the client in understanding the requirements of the project and identified the critical bugs that
+					helped the team to reduce the total project development time by 20 percentage .
+	</p>
+				<p class="p2">
+					• Worked with the Postman tool for testing the APIs and performed all end-to-end testing techniques including using
+JSON web tokens to authenticate the users make to meet the client’s requirements
+</p>
+<p class="p2">
+	• Performed the automation testing using selenium web driver to automate the repetitive tasks and used MySQL for
+database testing in validating the models and their relations
+</p>
+			
+				<br/>
+				<h4 style="font-size: 12px; font-weight: 600">Data Analyst</h4>
+				<p class="p2">
+					• Collected technical requirements for client accounts, defining data rules for and KPIs for performance metrics. .
+• Perform HR data collection and a variety of statistical analyses using Microsoft Excel, SAS, Tableau and Python.
+
+				</p>
+				<p class="p2">
+					• Built out the data and reporting infrastructure from the ground up using Tableau and SQL to provide real-time insights
+into the product, marketing funnels, and business KPI's
+				</p>
+				<p class="p2">
+					Analysing the data of brick machinery plant, taking the insights, analyzing the performance of the plant, which helps the
+					technical team to reduce the errors
+					• Creating dashboards based on the results of the machinery plant to the business team in identifying the issues to improve
+					the profits
+					
+				</p>
+				<p class="p2">
+					• Track key metrics such as sales pipeline and monthly results to help business leads interpret how sales team is tracking
+against goals
+• Partner with Marketing and Product teams to build, update, and maintain effective sales collateral, develop case studies,
+and formalize proposals and other sales materials
+				</p>
+			</div>
+
+		</div>
+	</div>
+	<a href="https://docs.google.com/document/d/11FuBgszZwCSpVWekJ6rR5tBLjU--xfIC/edit?usp=share_link&ouid=108166436703836808437&rtpof=true&sd=true">Download My Resume Here</a>
+
+
+</body>
+</html>
+{% endblock content %}
